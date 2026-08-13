@@ -78,13 +78,6 @@ comfy-list-files/
 [For Loop] --index--> [File List from Directory] --file_path--> [你的处理节点]
 ```
 
-### 场景三：VHS BatchManager 兼容
-
-连接 `meta_batch` 到 VHS 的 BatchManager 节点，实现逐帧输出：
-
-```
-[VHS_BatchManager] --meta_batch--> [File List from Directory] --file_path--> [处理节点]
-```
 
 ---
 
